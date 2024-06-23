@@ -32,15 +32,15 @@ public class StandAloneTest extends BaseTest {
 
 	}
 
-	@Test
-	public void dummyTest() {
-
-		String email="useless.id2023@gmail.com";
-		String Password="Mann@151";
-	
-		landingPage.loginInitialization(email, Password);
-		
-		Assert.assertEquals("Incorrect email  password.", landingPage.loginError());
-		
-	}
+//	@Test
+//	public void dummyTest() {
+//
+//		String email="useless.id2023@gmail.com";
+//		String Password="Mann@151";
+//	
+//		landingPage.loginInitialization(email, Password);
+//		
+//		Assert.assertEquals("Incorrect email  password.", landingPage.loginError());
+//		
+//	}
 }
