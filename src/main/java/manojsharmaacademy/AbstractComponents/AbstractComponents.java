@@ -13,8 +13,7 @@ public class AbstractComponents {
 	public AbstractComponents(WebDriver driver) {
 		this.driver=driver;
 	}
-	//test message
-	//test message
+	
 
 	public void WaitTillVisibilityOfElement(WebElement element) {
 		
